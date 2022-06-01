@@ -17,6 +17,19 @@ nav ul li{
   padding: 0 15px;
 }
 
+.navbar {
+  padding: 0 0 0.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+
 nav ul{
    display: flex;
    align-items: center;
@@ -39,15 +52,15 @@ nav ul{
 /*DIGITAL CARD DETAILS*/
   .Details{
     text-align: center;
-    color: white;
+    color: rgb(148, 141, 141);
   }
   .Background{
-    width:1000px;
+    width:1350px;
     height: 300px;
     position:absolute;
     z-index: -1;
-    right: 13%;
-    top: 10%;
+    right: 3%;
+    top: 8%;
   }
   
 /*CAROUSEL*/
@@ -92,4 +105,8 @@ nav ul{
   .FEATURES{
     text-align: center;
     padding: 10px 200px;
+  }
+
+  .blur{
+    width:100px;
   }
