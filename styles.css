@@ -1,4 +1,86 @@
-/* Navigation Bar */
-h1, h2, h3, h4 {
-    font-family: sans-serif;
+body{
+
+  text-align: center;
 }
+
+h1, h2, h3, h4 {
+  font-family: "Courgette";
+}
+
+/* NAVIGATION BAR */
+nav{
+  font-family:sans-serif;
+  font-size: 0.5rem;
+}
+
+nav ul li{
+  padding: 0 15px;
+}
+
+nav ul{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   height: 60px;
+   font-size: 1rem;
+}
+.Logo{
+  padding: 0 300px 0 10px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #252725; /* Green */
+  color: white;
+}
+
+/*DIGITAL CARD DETAILS*/
+  .Details{
+    text-align: center;
+  }
+  .Background{
+    width:900px;
+    height: 500px;
+  }
+  
+/*CAROUSEL*/
+  .carousel-item{
+    width: 350px;
+  }
+  .carousal{
+    border: 2px solid grey;
+    padding: 20px 30px;
+  }
+  .CAROUSAL{
+    padding: 10px 200px;
+  }
+/*CARD TITLE*/
+.btn {
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #000000; /* Green */
+  color: rgb(255, 253, 253);
+}
+
+.testimonial-image {
+  width: 50%;
+  margin: 20px;
+}
+
+.paragraph{
+  text-align: left;
+}
+/*FEATURES*/
+  .features{
+    text-align: center;
+    align-items: center;
+    border: 2px solid grey;
+    padding: 20px 30px;
+  }
+  .FEATURES{
+    text-align: center;
+    padding: 10px 200px;
+  }
